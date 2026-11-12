@@ -43,4 +43,4 @@ edge app.api -> store  "queries"  from: right  to: left
 - `diagram  theme: light` — themes: dark (default), light, solarized-dark/light, gruvbox-dark/light, catppuccin-mocha/latte, nord, dracula, vesper, high-contrast-dark/light, print.
 - `style <name> fill: #14532d border: ...`, `default leaf|container|edge ...` for shared looks; colors may be `theme-primary`, `theme-muted`, ... to follow the theme.
 
-Full reference: `plugins/reladraw/node_modules/reladraw/SYNTAX.md` (read sections on demand, it is long).
+Full reference: `node_modules/reladraw/SYNTAX.md` inside the installed plugin folder (`USER_PLUGINS/reladraw`; read sections on demand, it is long).
